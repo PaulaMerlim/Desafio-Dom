@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.login{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color:#E8E6E6;
+}
+.logo{
+  position: relative;
+  bottom: 3rem;
+  width: 15rem;  
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-style: bold;
+    color: black;
+    align:left;
+    font-size: 20px;
+}
+
+input{
+    width: 30rem;
+    background-color: #E8E6E6;
+    border: none;
+    width: 35vh;
+    border-radius: 15px;
+    padding:5px;
+    margin-bottom: 10px;
+    display: flex;
+    border-radius: 15px;
+}
+
+    input::placeholder{
+        position: relative;
+        bottom: px;
+        left: 10px;
+        text-transform: capitalize;
+        font-size: 0.75rem;
+    }
+    .checkbox{
+        width: 6rem;
+        display:flexbox;
+        padding: 5px;
+        margin-bottom: 15px;
+        top: 5rem;
+        
+    }
+    button{
+        width: 5rem;
+        padding: 1rem;
+        border-radius: 6px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        curs
+    }
+    .facebook{
+        background: #2051FF;
+        border:none;
+        background-image: url('face01.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 1.4rem;
+    }
+    .google{
+        background: #8A0000;
+        border: none;
+        background-image: url('google2.png');
+        background-repeat:no-repeat;
+        background-size: 1.4rem;
+        background-position: center;
+    } 
+    .apple{
+        background:#000000;
+        border: none;
+        background-image: url('apple.png');
+        background-repeat:no-repeat;
+        background-size: 1.4rem;
+        background-position: center;
+    } 
